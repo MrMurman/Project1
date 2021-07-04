@@ -29,11 +29,12 @@ class ViewController: UITableViewController {
                     self?.pictures.append(item)
                 }
             }
+            self?.pictures = (self?.pictures.sorted())!
         }
        
+        tableView.reloadData()
         
         
-        pictures = pictures.sorted()
         
         
         print(pictures)
