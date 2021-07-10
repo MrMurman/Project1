@@ -24,6 +24,8 @@
 		951AC16E267F4AB200DD231E /* nssl0033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 951AC164267F4AB200DD231E /* nssl0033.jpg */; };
 		951AC16F267F4AB200DD231E /* nssl0034.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 951AC165267F4AB200DD231E /* nssl0034.jpg */; };
 		951AC171267F6D4800DD231E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951AC170267F6D4700DD231E /* DetailViewController.swift */; };
+		955B90E92699C57600B62C93 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955B90E82699C57600B62C93 /* Picture.swift */; };
+		955B90EB2699D2B300B62C93 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955B90EA2699D2B300B62C93 /* CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		951AC164267F4AB200DD231E /* nssl0033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0033.jpg; sourceTree = "<group>"; };
 		951AC165267F4AB200DD231E /* nssl0034.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0034.jpg; sourceTree = "<group>"; };
 		951AC170267F6D4700DD231E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		955B90E82699C57600B62C93 /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		955B90EA2699D2B300B62C93 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +82,11 @@
 		951AC146267F48B500DD231E /* Project1 */ = {
 			isa = PBXGroup;
 			children = (
+				955B90E82699C57600B62C93 /* Picture.swift */,
 				951AC147267F48B500DD231E /* AppDelegate.swift */,
 				951AC149267F48B500DD231E /* SceneDelegate.swift */,
 				951AC14B267F48B500DD231E /* ViewController.swift */,
+				955B90EA2699D2B300B62C93 /* CollectionViewController.swift */,
 				951AC170267F6D4700DD231E /* DetailViewController.swift */,
 				951AC14D267F48B500DD231E /* Main.storyboard */,
 				951AC150267F48B700DD231E /* Assets.xcassets */,
@@ -188,6 +194,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				955B90EB2699D2B300B62C93 /* CollectionViewController.swift in Sources */,
+				955B90E92699C57600B62C93 /* Picture.swift in Sources */,
 				951AC14C267F48B500DD231E /* ViewController.swift in Sources */,
 				951AC148267F48B500DD231E /* AppDelegate.swift in Sources */,
 				951AC14A267F48B500DD231E /* SceneDelegate.swift in Sources */,
